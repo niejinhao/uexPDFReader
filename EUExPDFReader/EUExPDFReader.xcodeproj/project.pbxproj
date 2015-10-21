@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1AD55C1BD5EA500091D2A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1AD55E1BD5EA500091D2A1 /* Localizable.strings */; };
 		5A9FF0611890A6C000E16C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FF0601890A6C000E16C52 /* Foundation.framework */; };
 		5A9FF0681890A6C000E16C52 /* EUExPDFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0671890A6C000E16C52 /* EUExPDFReader.m */; };
 		5A9FF0B71890A84500E16C52 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF08F1890A84500E16C52 /* ReaderViewController.m */; };
@@ -30,6 +31,16 @@
 		5A9FF0C91890A84500E16C52 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B41890A84500E16C52 /* UIXToolbarView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3C1AD5581BD5EA260091D2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9FF0551890A6C000E16C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1AD5511BD5E9D70091D2A1;
+			remoteInfo = uexPDFReaderBundle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5A9FF05B1890A6C000E16C52 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -43,6 +54,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C1AD5521BD5E9D70091D2A1 /* uexPDFReader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexPDFReader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1AD5541BD5E9D70091D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1AD55D1BD5EA500091D2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C1AD55F1BD5EA5F0091D2A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5A9FF05D1890A6C000E16C52 /* libuexPDFReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexPDFReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9FF0601890A6C000E16C52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A9FF0641890A6C000E16C52 /* EUExPDFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExPDFReader-Prefix.pch"; sourceTree = "<group>"; };
@@ -93,6 +108,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C1AD54F1BD5E9D70091D2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A9FF05A1890A6C000E16C52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,10 +126,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1AD5531BD5E9D70091D2A1 /* uexPDFReaderBundle */ = {
+			isa = PBXGroup;
+			children = (
+				3C1AD5541BD5E9D70091D2A1 /* Info.plist */,
+			);
+			path = uexPDFReaderBundle;
+			sourceTree = "<group>";
+		};
 		5A9FF0541890A6C000E16C52 = {
 			isa = PBXGroup;
 			children = (
+				3C1AD55E1BD5EA500091D2A1 /* Localizable.strings */,
 				5A9FF0621890A6C000E16C52 /* EUExPDFReader */,
+				3C1AD5531BD5E9D70091D2A1 /* uexPDFReaderBundle */,
 				5A9FF05F1890A6C000E16C52 /* Frameworks */,
 				5A9FF05E1890A6C000E16C52 /* Products */,
 			);
@@ -117,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9FF05D1890A6C000E16C52 /* libuexPDFReader.a */,
+				3C1AD5521BD5E9D70091D2A1 /* uexPDFReader.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +249,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3C1AD5511BD5E9D70091D2A1 /* uexPDFReaderBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1AD5571BD5E9D70091D2A1 /* Build configuration list for PBXNativeTarget "uexPDFReaderBundle" */;
+			buildPhases = (
+				3C1AD54E1BD5E9D70091D2A1 /* Sources */,
+				3C1AD54F1BD5E9D70091D2A1 /* Frameworks */,
+				3C1AD5501BD5E9D70091D2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexPDFReaderBundle;
+			productName = uexPDFReaderBundle;
+			productReference = 3C1AD5521BD5E9D70091D2A1 /* uexPDFReader.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5A9FF05C1890A6C000E16C52 /* EUExPDFReader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A9FF0801890A6C100E16C52 /* Build configuration list for PBXNativeTarget "EUExPDFReader" */;
@@ -227,6 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3C1AD5591BD5EA260091D2A1 /* PBXTargetDependency */,
 			);
 			name = EUExPDFReader;
 			productName = EUExPDFReader;
@@ -241,6 +292,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					3C1AD5511BD5E9D70091D2A1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
 			};
 			buildConfigurationList = 5A9FF0581890A6C000E16C52 /* Build configuration list for PBXProject "EUExPDFReader" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -248,6 +304,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 5A9FF0541890A6C000E16C52;
 			productRefGroup = 5A9FF05E1890A6C000E16C52 /* Products */;
@@ -255,11 +312,30 @@
 			projectRoot = "";
 			targets = (
 				5A9FF05C1890A6C000E16C52 /* EUExPDFReader */,
+				3C1AD5511BD5E9D70091D2A1 /* uexPDFReaderBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3C1AD5501BD5E9D70091D2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1AD55C1BD5EA500091D2A1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		3C1AD54E1BD5E9D70091D2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A9FF0591890A6C000E16C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,7 +365,76 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3C1AD5591BD5EA260091D2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1AD5511BD5E9D70091D2A1 /* uexPDFReaderBundle */;
+			targetProxy = 3C1AD5581BD5EA260091D2A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C1AD55E1BD5EA500091D2A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1AD55D1BD5EA500091D2A1 /* en */,
+				3C1AD55F1BD5EA5F0091D2A1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		3C1AD5551BD5E9D70091D2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexPDFReader;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = uexPDFReaderBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexPDFReaderBundle;
+				PRODUCT_MODULE_NAME = uexPDFReader;
+				PRODUCT_NAME = uexPDFReader;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C1AD5561BD5E9D70091D2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexPDFReader;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = uexPDFReaderBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexPDFReaderBundle;
+				PRODUCT_MODULE_NAME = uexPDFReader;
+				PRODUCT_NAME = uexPDFReader;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5A9FF07E1890A6C100E16C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -396,6 +541,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C1AD5571BD5E9D70091D2A1 /* Build configuration list for PBXNativeTarget "uexPDFReaderBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1AD5551BD5E9D70091D2A1 /* Debug */,
+				3C1AD5561BD5E9D70091D2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5A9FF0581890A6C000E16C52 /* Build configuration list for PBXProject "EUExPDFReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

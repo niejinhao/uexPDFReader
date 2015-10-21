@@ -59,7 +59,7 @@
 		UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
 
 		doneButton.frame = CGRectMake(BUTTON_X, BUTTON_Y, DONE_BUTTON_WIDTH, BUTTON_HEIGHT);
-		[doneButton setTitle:NSLocalizedString(@"返回", @"button") forState:UIControlStateNormal];
+		[doneButton setTitle:UEX_LOCALIZEDSTRING(@"返回", @"button") forState:UIControlStateNormal];
 		[doneButton setTitleColor:[UIColor colorWithWhite:0.0f alpha:1.0f] forState:UIControlStateNormal];
 		[doneButton setTitleColor:[UIColor colorWithWhite:1.0f alpha:1.0f] forState:UIControlStateHighlighted];
 		[doneButton addTarget:self action:@selector(doneButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
