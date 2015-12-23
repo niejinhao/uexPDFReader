@@ -48,8 +48,8 @@
 	{
 		CGFloat viewWidth = self.bounds.size.width;
 
-		UIImage *imageH = [UIImage imageNamed:@"uexPDFReader/Reader-Button-H.png"];
-		UIImage *imageN = [UIImage imageNamed:@"uexPDFReader/Reader-Button-N.png"];
+		UIImage *imageH = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Button-H.png"]];
+		UIImage *imageN = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Button-N.png"]];
 
 		UIImage *buttonH = [imageH stretchableImageWithLeftCapWidth:5 topCapHeight:0];
 		UIImage *buttonN = [imageN stretchableImageWithLeftCapWidth:5 topCapHeight:0];
@@ -76,8 +76,8 @@
 
 		CGFloat showControlX = (viewWidth - (SHOW_CONTROL_WIDTH + BUTTON_SPACE));
 
-		UIImage *thumbsImage = [UIImage imageNamed:@"uexPDFReader/Reader-Thumbs.png"];
-		UIImage *bookmarkImage = [UIImage imageNamed:@"uexPDFReader/Reader-Mark-Y.png"];
+		UIImage *thumbsImage = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Thumbs.png"]];
+		UIImage *bookmarkImage = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Mark-Y.png"]];
 		NSArray *buttonItems = [NSArray arrayWithObjects:thumbsImage, bookmarkImage, nil];
 
 		UISegmentedControl *showControl = [[UISegmentedControl alloc] initWithItems:buttonItems];

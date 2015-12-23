@@ -53,8 +53,8 @@
 	{
 		CGFloat viewWidth = self.bounds.size.width;
 
-		UIImage *imageH = [UIImage imageNamed:@"uexPDFReader/Reader-Button-H.png"];
-		UIImage *imageN = [UIImage imageNamed:@"uexPDFReader/Reader-Button-N.png"];
+		UIImage *imageH = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Button-H.png"]];
+		UIImage *imageN = [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Button-N.png"]];
 
 		UIImage *buttonH = [imageH stretchableImageWithLeftCapWidth:5 topCapHeight:0];
 		UIImage *buttonN = [imageN stretchableImageWithLeftCapWidth:5 topCapHeight:0];
@@ -88,7 +88,7 @@
 		UIButton *thumbsButton = [UIButton buttonWithType:UIButtonTypeCustom];
 
 		thumbsButton.frame = CGRectMake(leftButtonX, BUTTON_Y, THUMBS_BUTTON_WIDTH, BUTTON_HEIGHT);
-		[thumbsButton setImage:[UIImage imageNamed:@"uexPDFReader/Reader-Thumbs.png"] forState:UIControlStateNormal];
+		[thumbsButton setImage:[UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Thumbs.png"]] forState:UIControlStateNormal];
 		[thumbsButton addTarget:self action:@selector(thumbsButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 		[thumbsButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 		[thumbsButton setBackgroundImage:buttonN forState:UIControlStateNormal];
@@ -109,7 +109,7 @@
 		UIButton *flagButton = [UIButton buttonWithType:UIButtonTypeCustom];
 
 		flagButton.frame = CGRectMake(rightButtonX, BUTTON_Y, MARK_BUTTON_WIDTH, BUTTON_HEIGHT);
-		//[flagButton setImage:[UIImage imageNamed:@"Reader-Mark-N.png"] forState:UIControlStateNormal];
+
 		[flagButton addTarget:self action:@selector(markButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 		[flagButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 		[flagButton setBackgroundImage:buttonN forState:UIControlStateNormal];
@@ -119,8 +119,8 @@
 
 		markButton = [flagButton retain]; markButton.enabled = NO; markButton.tag = NSIntegerMin;
 
-		markImageN = [[UIImage imageNamed:@"uexPDFReader/Reader-Mark-N.png"] retain]; // N image
-		markImageY = [[UIImage imageNamed:@"uexPDFReader/Reader-Mark-Y.png"] retain]; // Y image
+		markImageN = [[UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Mark-N.png"]] retain]; // N image
+		markImageY = [[UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Mark-Y.png"]] retain]; // Y image
 
 #endif // end of READER_BOOKMARKS Option
 
@@ -137,7 +137,7 @@
 				UIButton *emailButton = [UIButton buttonWithType:UIButtonTypeCustom];
 
 				emailButton.frame = CGRectMake(rightButtonX, BUTTON_Y, EMAIL_BUTTON_WIDTH, BUTTON_HEIGHT);
-				[emailButton setImage:[UIImage imageNamed:@"uexPDFReader/Reader-Email.png"] forState:UIControlStateNormal];
+				[emailButton setImage:[UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Email.png"]] forState:UIControlStateNormal];
 				[emailButton addTarget:self action:@selector(emailButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 				[emailButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 				[emailButton setBackgroundImage:buttonN forState:UIControlStateNormal];
@@ -162,7 +162,7 @@
 				UIButton *printButton = [UIButton buttonWithType:UIButtonTypeCustom];
 
 				printButton.frame = CGRectMake(rightButtonX, BUTTON_Y, PRINT_BUTTON_WIDTH, BUTTON_HEIGHT);
-				[printButton setImage:[UIImage imageNamed:@"uexPDFReader/Reader-Print.png"] forState:UIControlStateNormal];
+				[printButton setImage:[UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent: @"Reader-Print.png"]] forState:UIControlStateNormal];
 				[printButton addTarget:self action:@selector(printButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 				[printButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 				[printButton setBackgroundImage:buttonN forState:UIControlStateNormal];
