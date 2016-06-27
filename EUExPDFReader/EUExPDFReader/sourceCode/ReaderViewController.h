@@ -52,7 +52,7 @@
 
 	BOOL isVisible;
 }
-
+//@property(nonatomic,weak) EUExPDFReader *uexObj;
 @property (nonatomic, assign, readwrite) id <ReaderViewControllerDelegate> delegate;
 
 - (id)initWithReaderDocument:(ReaderDocument *)object;

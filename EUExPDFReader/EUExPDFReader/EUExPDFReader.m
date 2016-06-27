@@ -11,12 +11,12 @@
 
 @implementation EUExPDFReader
 
-- (id)initWithBrwView:(EBrowserView *)eInBrwView{
-    if (self=[super initWithBrwView:eInBrwView]) {
-        
-    }
-    return self;
-}
+//- (id)initWithBrwView:(EBrowserView *)eInBrwView{
+//    if (self=[super initWithBrwView:eInBrwView]) {
+//        
+//    }
+//    return self;
+//}
 
 - (void)openPDFReader:(NSMutableArray *)inArguments
 {
@@ -62,14 +62,15 @@
         }
 		readerController.delegate = self;
 	}
-    [EUtility brwView:meBrwView presentModalViewController:readerController animated:YES];
+   // [EUtility brwView:meBrwView presentModalViewController:readerController animated:YES];
+    [[self.webViewEngine viewController] presentViewController:readerController animated:YES completion:nil];
 }
 
 //motai
 - (void)dismissReaderViewController:(ReaderViewController *)viewController
 {
-    [viewController dismissModalViewControllerAnimated:YES];
-    
+    [viewController dismissViewControllerAnimated:YES completion:nil];
+    [self clean];
 }
 
 #pragma mark - 进入插件界面退出后，点击“关闭”会调
