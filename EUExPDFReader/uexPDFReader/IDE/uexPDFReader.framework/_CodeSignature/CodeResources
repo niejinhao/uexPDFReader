@@ -6,98 +6,98 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		D2H0wlrFHs4j43z/wCZDhYr1kJ4=
+		SH16HiTA3osp+nl8etIHXd4E0G0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		JKbXoT98W7zj86Z2W3qbeHZe/kE=
+		VccYRc8+LJpEK2ajGtgIir/pOpk=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-057.png</key>
+		<key>uexPDFReader.bundle/AppIcon-057.png</key>
 		<data>
-		EbO00NB6hmwWFJTE8ECQ5ivw8zY=
+		pjt2yGL97LC8NwIoW57FOAi0bNg=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-072.png</key>
+		<key>uexPDFReader.bundle/AppIcon-072.png</key>
 		<data>
-		c6BCw08a6wLD2MWaHAEhP/hXtts=
+		i9km5tvirsRoTCQRVifjdRUDrbQ=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-114.png</key>
+		<key>uexPDFReader.bundle/AppIcon-114.png</key>
 		<data>
-		svuqETQBPHHhQHVZfiAe97WeA1I=
+		YmQpKfu1zcZpF4BftYKQm5hBR8w=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-144.png</key>
+		<key>uexPDFReader.bundle/AppIcon-144.png</key>
 		<data>
-		hTBkx3rCHoIm6buW30BmiYU6FZo=
+		PKOufBKf0g1gUhOi2YuauC5N268=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-H.png</key>
+		<key>uexPDFReader.bundle/Reader-Button-H.png</key>
 		<data>
-		PG6QZr42CBQ4gmFhpZ0iDkaVOZY=
+		4XXen4iXiALQMaRGdmiUiBc7ZB0=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-H@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Button-H@2x.png</key>
 		<data>
-		Fy2PNR4kqh+Wgmj+ZCKA6y+FQts=
+		M5g8Ic1G7Fv8SRliVpXpkCQiajU=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-N.png</key>
+		<key>uexPDFReader.bundle/Reader-Button-N.png</key>
 		<data>
-		mpFcBfMK9IREUGBflSvS/MuNW5o=
+		fsoVX2ApGucEB+C1VA+lCzMeUmY=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-N@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Button-N@2x.png</key>
 		<data>
-		WbQ2dbsm45faK9y2JZZokJOlpDg=
+		Gje04JF4OdhB2JGjVqatRxu0rTY=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Email.png</key>
+		<key>uexPDFReader.bundle/Reader-Email.png</key>
 		<data>
-		5W3myL/4eLGtZOo5RBhFdu+gVLM=
+		ya5/LU/gYIADEVPFcpgRdbSYXVk=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Email@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Email@2x.png</key>
 		<data>
-		KfBh1DUl4bnPSL55pQDZjDaCGOs=
+		kjH2a17SzBiIbCTChmV5knpbiMI=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-N.png</key>
+		<key>uexPDFReader.bundle/Reader-Mark-N.png</key>
 		<data>
-		rTnlD5s72NaUqVrPHk8Jdup32/4=
+		0IycXtQ/dYJEGcnwqJJfoaQEXe4=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-N@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Mark-N@2x.png</key>
 		<data>
-		fID9uI3tqxz8CRDp+DoSo9u3lHI=
+		zOrV+TENDeNna9IHmHyKIZ/fPgE=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-Y.png</key>
+		<key>uexPDFReader.bundle/Reader-Mark-Y.png</key>
 		<data>
-		Ci/11mjaD9jqQzRqijQHMMD4bdI=
+		gj2jIE4D6OOjyjqCXIIwqwFrRH0=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-Y@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Mark-Y@2x.png</key>
 		<data>
-		BFtwEOwb0wpoLZdSji4XqY20t5I=
+		ufms3+zLdJh5woxzmqujqHhCO4k=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Print.png</key>
+		<key>uexPDFReader.bundle/Reader-Print.png</key>
 		<data>
-		AxqP9Ka7535B9r1hqH9asZy33ms=
+		CBo1AKCRbw8MnlL4uW+asfY8kFs=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Print@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Print@2x.png</key>
 		<data>
-		rsBX3vzLf+oB8i4TtlWknUDlPm4=
+		GopKP66Ads8Z2fw1DgKw+vqae6w=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Thumbs.png</key>
+		<key>uexPDFReader.bundle/Reader-Thumbs.png</key>
 		<data>
-		vMYoE9pEaosUILhd4GG9gERabRc=
+		2Rm4pmq2gnps1bClM1mP3kb4yWo=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Thumbs@2x.png</key>
+		<key>uexPDFReader.bundle/Reader-Thumbs@2x.png</key>
 		<data>
-		c/I8jpxSYo4sFkGDiPjlOgw2sGU=
+		YaEh2EuhEX0oizSKM9OoP0EIfVc=
 		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
+		<key>uexPDFReader.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q/kPFE5c2bcDMAtDVi6ryk5f7Iw=
+			Eg4aKmpiqpDl5NWThEk9t3fZCxM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>uexPDFReader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>uexPDFReader.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a7+u5Md2zbharWtU+aqHGcWS82Y=
+			rUnkhCykxP5LRxfHMFglPw6cl8U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -106,95 +106,236 @@
 	<key>files2</key>
 	<dict>
 		<key>embedded.mobileprovision</key>
-		<data>
-		JKbXoT98W7zj86Z2W3qbeHZe/kE=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-057.png</key>
-		<data>
-		EbO00NB6hmwWFJTE8ECQ5ivw8zY=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-072.png</key>
-		<data>
-		c6BCw08a6wLD2MWaHAEhP/hXtts=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-114.png</key>
-		<data>
-		svuqETQBPHHhQHVZfiAe97WeA1I=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/AppIcon-144.png</key>
-		<data>
-		hTBkx3rCHoIm6buW30BmiYU6FZo=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-H.png</key>
-		<data>
-		PG6QZr42CBQ4gmFhpZ0iDkaVOZY=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-H@2x.png</key>
-		<data>
-		Fy2PNR4kqh+Wgmj+ZCKA6y+FQts=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-N.png</key>
-		<data>
-		mpFcBfMK9IREUGBflSvS/MuNW5o=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Button-N@2x.png</key>
-		<data>
-		WbQ2dbsm45faK9y2JZZokJOlpDg=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Email.png</key>
-		<data>
-		5W3myL/4eLGtZOo5RBhFdu+gVLM=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Email@2x.png</key>
-		<data>
-		KfBh1DUl4bnPSL55pQDZjDaCGOs=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-N.png</key>
-		<data>
-		rTnlD5s72NaUqVrPHk8Jdup32/4=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-N@2x.png</key>
-		<data>
-		fID9uI3tqxz8CRDp+DoSo9u3lHI=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-Y.png</key>
-		<data>
-		Ci/11mjaD9jqQzRqijQHMMD4bdI=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Mark-Y@2x.png</key>
-		<data>
-		BFtwEOwb0wpoLZdSji4XqY20t5I=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Print.png</key>
-		<data>
-		AxqP9Ka7535B9r1hqH9asZy33ms=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Print@2x.png</key>
-		<data>
-		rsBX3vzLf+oB8i4TtlWknUDlPm4=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Thumbs.png</key>
-		<data>
-		vMYoE9pEaosUILhd4GG9gERabRc=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/Reader-Thumbs@2x.png</key>
-		<data>
-		c/I8jpxSYo4sFkGDiPjlOgw2sGU=
-		</data>
-		<key>uexPDFReader.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q/kPFE5c2bcDMAtDVi6ryk5f7Iw=
+			VccYRc8+LJpEK2ajGtgIir/pOpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ejCBtnGtWqhlrYI4GRjoMJxaexgdSnhjWGPR+Vc9frw=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/AppIcon-057.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pjt2yGL97LC8NwIoW57FOAi0bNg=
+			</data>
+			<key>hash2</key>
+			<data>
+			y04I5GOfAzpdiYepYYlUy+8vICP3VFVRTQcLIDFcYdw=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/AppIcon-072.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i9km5tvirsRoTCQRVifjdRUDrbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			LX7cb795Kr89pomJYwBox0nUf4P//+iNvKZG7SGwrrA=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/AppIcon-114.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YmQpKfu1zcZpF4BftYKQm5hBR8w=
+			</data>
+			<key>hash2</key>
+			<data>
+			LE2ff9bJv1Fzdh5XPmedsTosSWACuPoNqESbAEY9HWs=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/AppIcon-144.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PKOufBKf0g1gUhOi2YuauC5N268=
+			</data>
+			<key>hash2</key>
+			<data>
+			bWKpYoqGCw+o2vWNnFhX16P7v0RbMKKq3W2ZFwSjWgA=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Button-H.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4XXen4iXiALQMaRGdmiUiBc7ZB0=
+			</data>
+			<key>hash2</key>
+			<data>
+			l0y8WhTig3SNtQxVwVUBBkW8z7rmvVVSJfK85vorhMU=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Button-H@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M5g8Ic1G7Fv8SRliVpXpkCQiajU=
+			</data>
+			<key>hash2</key>
+			<data>
+			347B440lSHQXBiR8f9h3xZc9PJFLmwK911nfzDvVaA0=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Button-N.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fsoVX2ApGucEB+C1VA+lCzMeUmY=
+			</data>
+			<key>hash2</key>
+			<data>
+			8nr58zM48va8CN19zZQe513Yfz1S7D9dUoqO451+JTc=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Button-N@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gje04JF4OdhB2JGjVqatRxu0rTY=
+			</data>
+			<key>hash2</key>
+			<data>
+			NwfikXdpfInpd4ZS90DeR3nODb0TTm1aUERR80RfeHg=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Email.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ya5/LU/gYIADEVPFcpgRdbSYXVk=
+			</data>
+			<key>hash2</key>
+			<data>
+			6f+Iyy2+tmOJAeQ1RiSrpJeOGojq4zSj88AGcIskG6k=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Email@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kjH2a17SzBiIbCTChmV5knpbiMI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LumFtWpEIC+fcke7nN3p8pVBzKTkodjVfa9VyUF9zm0=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Mark-N.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0IycXtQ/dYJEGcnwqJJfoaQEXe4=
+			</data>
+			<key>hash2</key>
+			<data>
+			DdBWetlYn86nx6EbT+zwOCXiX5QGBxLdO91+kjVWgLk=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Mark-N@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zOrV+TENDeNna9IHmHyKIZ/fPgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			t5M0wKOn3hCIHLbnCFzQPYTuS3lAXS25x4MJXd26LbI=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Mark-Y.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gj2jIE4D6OOjyjqCXIIwqwFrRH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			KaaVRfGOYObhQMa4Ow23bVMGW385+Jitc15N71ndOp8=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Mark-Y@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ufms3+zLdJh5woxzmqujqHhCO4k=
+			</data>
+			<key>hash2</key>
+			<data>
+			3TOFReoezxbiXlRTIsjVOO0S4/YaF2fFYIUc6X0O+OI=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Print.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CBo1AKCRbw8MnlL4uW+asfY8kFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1+eexmOGPKsTOLk47Ui0FEsYtQL1jD+dIP1gXgGLqHw=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Print@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GopKP66Ads8Z2fw1DgKw+vqae6w=
+			</data>
+			<key>hash2</key>
+			<data>
+			HF/VmLlPfh8VVGYPlpqHBgLftIpm+SUtza8+9BS071A=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Thumbs.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2Rm4pmq2gnps1bClM1mP3kb4yWo=
+			</data>
+			<key>hash2</key>
+			<data>
+			m4V8gRBarBwsgPsUy0SIkMOnnA9/aAxyauonH3nNzhk=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/Reader-Thumbs@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YaEh2EuhEX0oizSKM9OoP0EIfVc=
+			</data>
+			<key>hash2</key>
+			<data>
+			G99YHgOCVzvMtT7gXpHDKtV2boNrUkwkw4rhaTGdGVk=
+			</data>
+		</dict>
+		<key>uexPDFReader.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Eg4aKmpiqpDl5NWThEk9t3fZCxM=
+			</data>
+			<key>hash2</key>
+			<data>
+			GQ5oLXtr+9fGDVGWxylKZJLKzV2+TQBLX4xys093GwE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>uexPDFReader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>uexPDFReader.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a7+u5Md2zbharWtU+aqHGcWS82Y=
+			rUnkhCykxP5LRxfHMFglPw6cl8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			0RMsi5fLOujmG2iZVZYGf5DhceIuRnlagaloxCMy510=
 			</data>
 			<key>optional</key>
 			<true/>
