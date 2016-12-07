@@ -803,12 +803,13 @@
 	if ([delegate respondsToSelector:@selector(dismissReaderViewController:)] == YES)
 	{
 		[delegate dismissReaderViewController:self]; // Dismiss the ReaderViewController
+       
 	}
 	else // We have a "Delegate must respond to -dismissReaderViewController: error"
 	{
 		NSAssert(NO, @"Delegate must respond to -dismissReaderViewController:");
 	}
-
+    
 #endif // end of READER_STANDALONE Option
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215C83381D2119AF00F9E75E /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C83371D2119AF00F9E75E /* AppCanKit.framework */; };
 		3C1C09CA1BE0629D00571E72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09CC1BE0629D00571E72 /* Localizable.strings */; };
 		42EE605D1C2A4D84007CFCB4 /* AppIcon-057.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE604B1C2A4D84007CFCB4 /* AppIcon-057.png */; };
 		42EE605E1C2A4D84007CFCB4 /* AppIcon-072.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE604C1C2A4D84007CFCB4 /* AppIcon-072.png */; };
@@ -72,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		215C83371D2119AF00F9E75E /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 		3C1AD5521BD5E9D70091D2A1 /* uexPDFReader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexPDFReader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1C09CB1BE0629D00571E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3C1C09CD1BE0629E00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -98,7 +100,6 @@
 		5A9FF0641890A6C000E16C52 /* EUExPDFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExPDFReader-Prefix.pch"; sourceTree = "<group>"; };
 		5A9FF0671890A6C000E16C52 /* EUExPDFReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExPDFReader.m; sourceTree = "<group>"; };
 		5A9FF06E1890A6C100E16C52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5A9FF0871890A84400E16C52 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5A9FF0881890A84400E16C52 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5A9FF0891890A84400E16C52 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		5A9FF08E1890A84500E16C52 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215C83381D2119AF00F9E75E /* AppCanKit.framework in Frameworks */,
 				5A9FF0611890A6C000E16C52 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +240,6 @@
 		5A9FF0861890A84400E16C52 /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				5A9FF0871890A84400E16C52 /* EUExBase.h */,
 				5A9FF0881890A84400E16C52 /* EUExBaseDefine.h */,
 				5A9FF0891890A84400E16C52 /* EUtility.h */,
 			);
@@ -248,6 +249,7 @@
 		5A9FF08A1890A84400E16C52 /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				215C83371D2119AF00F9E75E /* AppCanKit.framework */,
 				5A9FF08E1890A84500E16C52 /* ReaderViewController.h */,
 				5A9FF08F1890A84500E16C52 /* ReaderViewController.m */,
 				5A9FF0901890A84500E16C52 /* Sources */,
@@ -583,7 +585,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPDFReader/";
 				DSTROOT = /tmp/EUExPDFReader.dst;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/EUExPDFReader/sourceCode";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExPDFReader/EUExPDFReader-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -599,7 +601,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPDFReader/";
 				DSTROOT = /tmp/EUExPDFReader.dst;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/EUExPDFReader/sourceCode";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExPDFReader/EUExPDFReader-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
