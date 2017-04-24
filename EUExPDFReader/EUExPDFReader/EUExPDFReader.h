@@ -8,16 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "EUExBaseDefine.h"
+#import <AppCanKit/AppCanKit.h>
 
-#import "ReaderViewController.h"
 
-@interface EUExPDFReader : EUExBase <ReaderViewControllerDelegate>
-{
-    ReaderViewController *readerController;
-}
-
-- (void)openPDFReader:(NSMutableArray *)inArguments;
-- (void)close:(NSMutableArray *)inArguments;
+@interface EUExPDFReader : EUExBase
 
 @end

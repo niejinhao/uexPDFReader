@@ -3,5 +3,7 @@
     <plugin name="uexPDFReader">
         <method name="openPDFReader"></method>
         <method name="close"></method>
+        <method name="openView"></method>
+        <method name="closeView"></method>
     </plugin>
 </uexplugins>

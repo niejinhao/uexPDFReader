@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		215C83381D2119AF00F9E75E /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C83371D2119AF00F9E75E /* AppCanKit.framework */; };
 		3C1C09CA1BE0629D00571E72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09CC1BE0629D00571E72 /* Localizable.strings */; };
+		427A05491EADE91A002BC8DE /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427A05481EADE91A002BC8DE /* AppCanKit.framework */; };
 		42EE605D1C2A4D84007CFCB4 /* AppIcon-057.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE604B1C2A4D84007CFCB4 /* AppIcon-057.png */; };
 		42EE605E1C2A4D84007CFCB4 /* AppIcon-072.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE604C1C2A4D84007CFCB4 /* AppIcon-072.png */; };
 		42EE605F1C2A4D84007CFCB4 /* AppIcon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE604D1C2A4D84007CFCB4 /* AppIcon-114.png */; };
@@ -29,25 +29,25 @@
 		42EE606E1C2A4D84007CFCB4 /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE605C1C2A4D84007CFCB4 /* Reader-Thumbs@2x.png */; };
 		5A9FF0611890A6C000E16C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FF0601890A6C000E16C52 /* Foundation.framework */; };
 		5A9FF0681890A6C000E16C52 /* EUExPDFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0671890A6C000E16C52 /* EUExPDFReader.m */; };
-		5A9FF0B71890A84500E16C52 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF08F1890A84500E16C52 /* ReaderViewController.m */; };
-		5A9FF0B81890A84500E16C52 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0921890A84500E16C52 /* CGPDFDocument.m */; };
-		5A9FF0B91890A84500E16C52 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0941890A84500E16C52 /* ReaderConstants.m */; };
-		5A9FF0BA1890A84500E16C52 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0961890A84500E16C52 /* ReaderContentPage.m */; };
-		5A9FF0BB1890A84500E16C52 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0981890A84500E16C52 /* ReaderContentTile.m */; };
-		5A9FF0BC1890A84500E16C52 /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09A1890A84500E16C52 /* ReaderContentView.m */; };
-		5A9FF0BD1890A84500E16C52 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09C1890A84500E16C52 /* ReaderDocument.m */; };
-		5A9FF0BE1890A84500E16C52 /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09E1890A84500E16C52 /* ReaderMainPagebar.m */; };
-		5A9FF0BF1890A84500E16C52 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A01890A84500E16C52 /* ReaderMainToolbar.m */; };
-		5A9FF0C01890A84500E16C52 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A21890A84500E16C52 /* ReaderThumbCache.m */; };
-		5A9FF0C11890A84500E16C52 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A41890A84500E16C52 /* ReaderThumbFetch.m */; };
-		5A9FF0C21890A84500E16C52 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A61890A84500E16C52 /* ReaderThumbQueue.m */; };
-		5A9FF0C31890A84500E16C52 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A81890A84500E16C52 /* ReaderThumbRender.m */; };
-		5A9FF0C41890A84500E16C52 /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AA1890A84500E16C52 /* ReaderThumbRequest.m */; };
-		5A9FF0C51890A84500E16C52 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AC1890A84500E16C52 /* ReaderThumbsView.m */; };
-		5A9FF0C61890A84500E16C52 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AE1890A84500E16C52 /* ReaderThumbView.m */; };
-		5A9FF0C71890A84500E16C52 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B01890A84500E16C52 /* ThumbsMainToolbar.m */; };
-		5A9FF0C81890A84500E16C52 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B21890A84500E16C52 /* ThumbsViewController.m */; };
-		5A9FF0C91890A84500E16C52 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B41890A84500E16C52 /* UIXToolbarView.m */; };
+		5A9FF0B71890A84500E16C52 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF08F1890A84500E16C52 /* ReaderViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0B81890A84500E16C52 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0921890A84500E16C52 /* CGPDFDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0B91890A84500E16C52 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0941890A84500E16C52 /* ReaderConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BA1890A84500E16C52 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0961890A84500E16C52 /* ReaderContentPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BB1890A84500E16C52 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0981890A84500E16C52 /* ReaderContentTile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BC1890A84500E16C52 /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09A1890A84500E16C52 /* ReaderContentView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BD1890A84500E16C52 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09C1890A84500E16C52 /* ReaderDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BE1890A84500E16C52 /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF09E1890A84500E16C52 /* ReaderMainPagebar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0BF1890A84500E16C52 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A01890A84500E16C52 /* ReaderMainToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C01890A84500E16C52 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A21890A84500E16C52 /* ReaderThumbCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C11890A84500E16C52 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A41890A84500E16C52 /* ReaderThumbFetch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C21890A84500E16C52 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A61890A84500E16C52 /* ReaderThumbQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C31890A84500E16C52 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0A81890A84500E16C52 /* ReaderThumbRender.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C41890A84500E16C52 /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AA1890A84500E16C52 /* ReaderThumbRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C51890A84500E16C52 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AC1890A84500E16C52 /* ReaderThumbsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C61890A84500E16C52 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0AE1890A84500E16C52 /* ReaderThumbView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C71890A84500E16C52 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B01890A84500E16C52 /* ThumbsMainToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C81890A84500E16C52 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B21890A84500E16C52 /* ThumbsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A9FF0C91890A84500E16C52 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FF0B41890A84500E16C52 /* UIXToolbarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +73,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		215C83371D2119AF00F9E75E /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 		3C1AD5521BD5E9D70091D2A1 /* uexPDFReader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexPDFReader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1C09CB1BE0629D00571E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3C1C09CD1BE0629E00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		427A05481EADE91A002BC8DE /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 		42EE604B1C2A4D84007CFCB4 /* AppIcon-057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-057.png"; sourceTree = "<group>"; };
 		42EE604C1C2A4D84007CFCB4 /* AppIcon-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-072.png"; sourceTree = "<group>"; };
 		42EE604D1C2A4D84007CFCB4 /* AppIcon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-114.png"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215C83381D2119AF00F9E75E /* AppCanKit.framework in Frameworks */,
+				427A05491EADE91A002BC8DE /* AppCanKit.framework in Frameworks */,
 				5A9FF0611890A6C000E16C52 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +249,7 @@
 		5A9FF08A1890A84400E16C52 /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				215C83371D2119AF00F9E75E /* AppCanKit.framework */,
+				427A05481EADE91A002BC8DE /* AppCanKit.framework */,
 				5A9FF08E1890A84500E16C52 /* ReaderViewController.h */,
 				5A9FF08F1890A84500E16C52 /* ReaderViewController.m */,
 				5A9FF0901890A84500E16C52 /* Sources */,
@@ -582,7 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPDFReader/";
 				DSTROOT = /tmp/EUExPDFReader.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/EUExPDFReader/sourceCode";
@@ -598,7 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPDFReader/";
 				DSTROOT = /tmp/EUExPDFReader.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/EUExPDFReader/sourceCode";
