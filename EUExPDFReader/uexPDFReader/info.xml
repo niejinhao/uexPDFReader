@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
-  <plugin uexName="uexPDFReader" version="3.0.6" build="6">
-    <info>6: IDE证书更新</info>
+  <plugin uexName="uexPDFReader" version="3.0.7" build="7">
+    <info>7: 修改打开多个pdf文件时，只能打开一个pdf文件</info>
+    <build>6: IDE证书更新</build>
     <build>5: 改用bundle方式引用资源文件;添加IDE支持</build>
     <build>4: 删除info.plist</build>
     <build>3: 添加国际化支持</build>
