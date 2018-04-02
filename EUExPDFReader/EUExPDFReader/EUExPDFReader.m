@@ -38,9 +38,9 @@
                 docDir = [NSString stringWithFormat:@"%@/",docDir];
                 NSString *fileName = nil;
                 if ([path hasPrefix:@"res://"] ) {
-                    fileName = [filePath substringFromIndex:6];
+                    fileName = [path substringFromIndex:6];
                 }
-                filePath = [NSString stringWithFormat:@"%@/%@",docDir,fileName];
+                filePath = [NSString stringWithFormat:@"%@%@",docDir,fileName];
                 [manager copyItemAtPath:appPath toPath:filePath error:nil];
             }else{
                 filePath = [self absPath:[inArguments objectAtIndex:0]];
@@ -57,9 +57,9 @@
 	ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
 	if (document != nil)
 	{
-        if (!readerController) {
+        //if (!readerController) {
             readerController = [[ReaderViewController alloc] initWithReaderDocument:document];
-        }
+        //}
 		readerController.delegate = self;
 	}
     [EUtility brwView:meBrwView presentModalViewController:readerController animated:YES];
